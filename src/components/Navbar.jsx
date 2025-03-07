@@ -64,7 +64,7 @@ export default function Navbar() {
                 href="/"
                 className="cursor-pointer text-red-600 font-bold text-xl pt-4 ps-4"
               >
-                NEXTNEWS
+                eBookari
               </Link>
               <button
                 onClick={toggleMobileMenu}
