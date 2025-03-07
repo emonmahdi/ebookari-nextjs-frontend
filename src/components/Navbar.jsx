@@ -11,8 +11,10 @@ export default function Navbar() {
   // Navigation items array
   const navItems = [
     { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
-    { name: "News", href: "/news" },
+    { name: "Author", href: "/author" },
+    { name: "Publisher", href: "/publisher" },
+    { name: "Books", href: "/books" },
+    { name: "Subject", href: "/subject" },
     { name: "Contact", href: "/contact" },
   ];
 
@@ -24,7 +26,7 @@ export default function Navbar() {
             href="/"
             className="mr-4 block cursor-pointer py-1.5 text-red-600 font-bold text-2xl"
           >
-            NEXTNEWS
+            eBookari
           </Link>
 
           <div className="lg:hidden">
