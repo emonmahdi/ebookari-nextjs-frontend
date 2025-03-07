@@ -1,5 +1,6 @@
 import { Roboto_Mono } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
 export const roboto_mono = Roboto_Mono({
   subsets: ["latin"],
@@ -14,7 +15,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${roboto_mono.className}`}>{children}</body>
+      <body className={`${roboto_mono.className}`}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
